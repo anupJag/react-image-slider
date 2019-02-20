@@ -1,0 +1,71 @@
+.UlHolder{
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+
+    .divContainer{
+        height: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        transition: 0.5s;
+        position: relative;
+        overflow: hidden;
+
+        .Content{
+            position: absolute;
+            bottom: -100%;
+            left: 0;
+            background: #000000cc;
+            color: #fff;
+            box-sizing: border-box;
+            opacity: 0;
+            width: 100%;
+        }
+    }
+
+    .divContainerItemCount1{
+        width: 100%
+    }
+
+    .divContainerItemCount2{
+        width: 50%;
+
+        &:hover{
+            width: 70%;
+        }
+    }
+
+    .divContainerItemCount3{
+        width: 33.3%;
+
+        &:hover{
+            width: 60%;
+        }
+    }
+
+    .divContainerItemCount4{
+        width: 25%;
+
+        &:hover{
+            width: 60%;
+        }
+    }
+
+    .divContainerItemCount5{
+        width: 20%;
+
+        &:hover{
+            width: 60%;
+        }
+    }
+
+}
+
+.divContainer:hover .Content{
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    opacity: 1;
+}

@@ -1,0 +1,15 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+@font-face{
+  font-family: 'Roboto';
+  src: url('https://publiccdn.sharepointonline.com/myadmo365.sharepoint.com/CDN/Fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-size : 14px;
+}
+
+.imageSlider {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
